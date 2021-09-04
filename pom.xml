@@ -15,7 +15,7 @@
 
 		<app.runtime>4.3.0-20210719</app.runtime>
 		<mule.maven.plugin.version>3.5.2</mule.maven.plugin.version>
-		<munit.version>2.3.4</munit.version>
+		<!--<munit.version>2.3.4</munit.version> -->
 		<mule.version>4.3.0</mule.version>
 	</properties>
 
@@ -56,6 +56,7 @@
 					<classifier>mule-application</classifier>
 				</configuration>
 			</plugin>
+			<!-- 
 			<plugin>
 				<groupId>com.mulesoft.munit.tools</groupId>
 				<artifactId>munit-maven-plugin</artifactId>
@@ -79,6 +80,7 @@
 					</coverage>
 				</configuration>
 			</plugin>
+			-->
 		</plugins>
 	</build>
 
@@ -112,6 +114,7 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.48</version>
 		</dependency>
+		<!--  
 		<dependency>
 			<groupId>com.mulesoft.munit</groupId>
 			<artifactId>munit-runner</artifactId>
@@ -132,6 +135,7 @@
 			<version>1.0.2</version>
 			<scope>test</scope>
 		</dependency>
+		-->
 		<dependency>
 			<groupId>caf3563f-6e8f-45fa-833a-77d29d123f25</groupId>
 			<artifactId>bookmyshow</artifactId>
